@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/MakatiWP.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    line-height: 1.2;
+    text-align: center;
+    font-size: 10mm;
+    font-family: Arial, sans-serif;
+    max-height: auto;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    align-content: center;
+}
+
+.left-container {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 30px;
+    text-align: center;
+    width: 30%;
+    float:left;
+    margin-left: 50px;
+}
+
+.right-container {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 30px;
+    text-align: center;
+    width: 30%;
+    float:right;
+    margin-right: 50px;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #050505;
+    border-radius: 4px;
+    text-align: center;
+}
+
+button {
+    align-self: center;
+    width: 60%;
+    border: 1px solid #050505;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #1e8afd;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0069da;
+}
+
+.signup-link {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.signup-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+.login-link{
+    text-align: center;
+}
+
+.password-append {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 75%;
+    right: 0px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}

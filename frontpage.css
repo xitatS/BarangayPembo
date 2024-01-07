@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/frontWP.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+h1 {
+    font-size: 24px;
+}
+
+button {
+    background-color: rgba(26, 0, 172, 0.9);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 40px;
+    margin-top: 450px;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+    font-style:oblique;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #b90000;
+}

@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/BCourtWP.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin: 0;
+    padding: 0;
+    color: #000000; 
+    text-align: center;
+}
+
+.tentchairs {
+    font-family: Arial, sans-serif;
+    background-image: url('images/TentChairsWP.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin: 0;
+    padding: 0;
+    color: #000000; 
+    text-align: center;
+}
+
+.Indigency {
+    font-family: Arial, sans-serif;
+    background-image: url('images/IndigencyWP.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin: 0;
+    padding: 0;
+    color: #000000; 
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(51, 51, 51, 0.7);
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 10px;
+    margin-top: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    background-color: #a17729;
+}
+
+h1 {
+    text-align: center;
+    color: #020202;
+    padding: 5px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size:25px;
+}
+
+form {
+    max-width: 900px;
+    padding: 20px;
+    padding-right: 35px;
+    padding-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bolder;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="tel"],
+select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    text-align: center;
+}
+
+select {
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    text-align: center;
+}
+
+input[type="purpose"] {
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    text-align: center;
+}
+
+purpose {
+    overflow-y: auto; /* Add a vertical scrollbar if needed */
+    max-height: 150px; /* Adjust the maximum height as needed */
+}
+
+input[type="date"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    text-align: center;
+}
+
+label[for="currentDate"] {
+    font-weight: bolder;
+}
+
+label[for="date"] {
+    font-weight: bolder;
+}
+
+form {
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-right: 106px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo2 img {
+    width: 100px;
+    height: auto;
+    margin-left: 117px;
+}
+
+.logo2 {
+    display: flex;
+    align-items: center;
+}
+
+.logo3 img {
+    width: 100px;
+    height: auto;
+    margin-right: 200px;
+}
+
+.logo3 {
+    display: flex;
+    align-items: center;
+}
+
+.logo4 img {
+    width: 100px;
+    height: auto;
+    margin-left: 200px;
+}
+
+.logo4 {
+    display: flex;
+    align-items: center;
+}
+
+.error-message{
+    color:red;
+    align-self: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.success-message {
+    color:green;
+    align-self: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1,
+.container2 {
+    width: 45%; /* Adjust the width as needed */
+}
+
+.container1 {
+    order: 1; /* Display on the left */
+}
+
+.container2 {
+    order: 2; /* Display on the right */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container1,
+    .container2 {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+

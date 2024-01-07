@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/MakatiWP.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    text-align: center;
+    border: 2px solid #000000; /* Add border to the container */
+}
+
+h1{
+    font-family:'Arial', monospace
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 6px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.signup-link {
+    font-weight: bold;
+}
+
+.signup-link a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+#error-message{
+    color:red;
+    font-weight: bold;
+    align-self: center;
+}
+input[type="submit"]{
+    background-color: #c4c4c4;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #979797;
+}
+
+.password-append {
+    position: relative;
+}
+
+.form-group {
+    position: relative;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-input-container {
+            position: relative;
+        }
+
+        /* Style for the eye icon */
+        .fas.fa-eye,
+        .fas.fa-eye-slash {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: #777; /* Default color */
+        }
+
+        /* Style for the eye icon when password is visible */
+        .fas.fa-eye {
+            display: none;
+        }
+
+        /* Style for the eye-slash icon when password is hidden */
+        .fas.fa-eye-slash {
+            display: inline-block;
+        }
